@@ -1,0 +1,114 @@
+body {
+    background-color: lightgrey;
+}
+.head{
+    flex: inherit;
+}
+h1{
+    text-shadow: 2px 2px 5px red;
+    text-transform: uppercase;
+    font-family: "Times New Roman", Times, serif;
+     
+}
+
+
+.row {
+  margin: 0 auto;
+  width: 280px;
+  clear: both;
+  text-align: center;
+  font-family: 'Exo';
+
+
+
+}
+
+.digit,
+.dig {
+  float: left;
+  padding: 10px 30px;
+  width: 30px;
+  font-size: 2rem;
+  cursor: pointer;
+  font-weight: bold;
+  text-shadow: 2px 2px 5px gray;
+
+  
+
+}
+
+
+.sub {
+  font-size: 0.8rem;
+  color:blue;
+  font-family: cursive;
+
+}
+
+.container {
+  background-color: white;
+  width: 320px;
+  padding: 20px;
+  margin: 30px auto;
+  height: 420px;
+  text-align: center;
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+  border-style: solid;
+  /*box-shadow: 5px 10px 18px red;*/
+  box-shadow: 10px 10px 5px #aaaaaa;
+}
+
+#output {
+  font-family: "Exo";
+  font-size: 2rem;
+  height: 60px;
+  font-weight: bold;
+  color: #1976d2;
+}
+
+#call {
+  display: inline-block;
+  background-color:lightgreen;
+  padding: 8px 30px;
+  margin: 10px;
+  color: white;
+  border-radius: 4px;
+  float: left;
+  cursor: pointer;
+
+
+  border: none;
+  color: white;
+  
+  text-align: center;
+  font-size: 16px;
+  margin: 4px 2px;
+  opacity: 0.6;
+  transition: 0.3s;
+}
+
+.botrow {
+  margin: 0 auto;
+  width: 280px;
+  clear: both;
+  text-align: center;
+  font-family: 'Exo';
+  font-weight: bold;
+}
+
+.digit:active,
+.dig:active {
+  background-color: lightgrey;
+}
+
+#call:hover {
+    background-color: #3e8e41;
+}
+
+.dig {
+  float: left;
+  padding: 10px 20px;
+  margin: 10px;
+  width: 30px;
+  cursor: pointer;
+}
